@@ -25,7 +25,7 @@ jobs:
         (cd blog && npm install)
 
     - name: Build Site
-      run: (cd blog && hexo build)
+      run: (cd blog && hexo generate)
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@2.0.0

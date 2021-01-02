@@ -21,7 +21,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        npm install -g hexo-cli
+        sudo npm install -g hexo-cli
         (cd blog && npm install)
 
     - name: Build Site

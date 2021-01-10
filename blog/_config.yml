@@ -107,7 +107,7 @@ theme: yilia-plus
 feed:
   type: atom
   path: atom.xml
-  limit: 20
+  limit: 100
   content: true
 
 # Deployment
